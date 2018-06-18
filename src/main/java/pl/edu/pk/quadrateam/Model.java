@@ -1,13 +1,9 @@
 package pl.edu.pk.quadrateam;
+import java.util.Scanner;
 
-class Model {
-    Model(){}
-    public static void main(String[] args)
-    {
-        Activity active = new Activity("Damian", "Oddaj jave", 18,
-                                       6, 2018, 14, 30);
+class Model
+{
+    Model() {};
 
 
-        active.get_info();
-    }
 }

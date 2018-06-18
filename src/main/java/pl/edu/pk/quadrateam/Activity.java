@@ -30,14 +30,9 @@ public class Activity
 
     public void get_data()
     {
-        String data = this.dzien_wykonania + "/" + this.miesiac_wykonania + "/" + this.rok_wykonania;
+        String data = this.dzien_wykonania + "/" + this.miesiac_wykonania + "/" + this.rok_wykonania
+                +"   " + this.godzina_wykonania + ":" + this.minuta_wykonania;
         System.out.println(data);
-    }
-
-    public void get_czas()
-    {
-        String czas = this.godzina_wykonania + ":" + this.minuta_wykonania;
-        System.out.println(czas);
     }
 
     public void get_info()
@@ -46,7 +41,6 @@ public class Activity
         this.get_wykonawca();
         this.get_rodzaj();
         this.get_data();
-        this.get_czas();
         System.out.println("######");
     }
 }
